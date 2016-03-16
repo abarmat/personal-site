@@ -1,0 +1,346 @@
+/* Freepik Icons */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./fonts/Flaticon.eot");
+  src: url("./fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/Flaticon.woff") format("woff"),
+       url("./fonts/Flaticon.ttf") format("truetype"),
+       url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-acceptance-circular-button:before { content: "\f100"; }
+.flaticon-add-circular-button:before { content: "\f101"; }
+.flaticon-airplane-folded-paper-shape:before { content: "\f102"; }
+.flaticon-anchor-navigational-tool:before { content: "\f103"; }
+.flaticon-attachment-paperclip-symbol-of-interface:before { content: "\f104"; }
+.flaticon-attention-exclamation-triangular-signal:before { content: "\f105"; }
+.flaticon-back-button:before { content: "\f106"; }
+.flaticon-barbecue-tool-outline:before { content: "\f107"; }
+.flaticon-bars-graphic:before { content: "\f108"; }
+.flaticon-basketball-ball:before { content: "\f109"; }
+.flaticon-bell-alarm-symbol:before { content: "\f10a"; }
+.flaticon-blank-opened-book-pages:before { content: "\f10b"; }
+.flaticon-bookmark:before { content: "\f10c"; }
+.flaticon-brush-short-tool-outline:before { content: "\f10d"; }
+.flaticon-chef-or-cooker-hat-tool-for-cooking:before { content: "\f10e"; }
+.flaticon-chronometer:before { content: "\f10f"; }
+.flaticon-circular-clock:before { content: "\f110"; }
+.flaticon-circular-graphic-of-business-statistics:before { content: "\f111"; }
+.flaticon-clipboard:before { content: "\f112"; }
+.flaticon-clockwise-rotating-circular-arrow:before { content: "\f113"; }
+.flaticon-close-cross-circular-interface-button:before { content: "\f114"; }
+.flaticon-cloud-and-bolt:before { content: "\f115"; }
+.flaticon-cloud-of-rain:before { content: "\f116"; }
+.flaticon-cloud-shape-outlined-symbol:before { content: "\f117"; }
+.flaticon-cloud-with-wind:before { content: "\f118"; }
+.flaticon-cloudy-day-outlined-weather-interface-symbol:before { content: "\f119"; }
+.flaticon-cloudy-foggy-day-weather-symbol:before { content: "\f11a"; }
+.flaticon-cloudy-hail-day-weather-symbol:before { content: "\f11b"; }
+.flaticon-cloudy-rain-day-weather-symbol:before { content: "\f11c"; }
+.flaticon-cloudy-windy-day:before { content: "\f11d"; }
+.flaticon-cold-hail-falling-of-a-cloud-weather-interface-symbol:before { content: "\f11e"; }
+.flaticon-commercial-shopping-cart-symbol:before { content: "\f11f"; }
+.flaticon-compass:before { content: "\f120"; }
+.flaticon-cooking-pot-outlined-symbol:before { content: "\f121"; }
+.flaticon-cupcake-outline:before { content: "\f122"; }
+.flaticon-danger-symbol:before { content: "\f123"; }
+.flaticon-database-or-cake-outline:before { content: "\f124"; }
+.flaticon-diaphragm:before { content: "\f125"; }
+.flaticon-down-arrow-in-circular-button:before { content: "\f126"; }
+.flaticon-download-symbol:before { content: "\f127"; }
+.flaticon-edit-pencil-symbol:before { content: "\f128"; }
+.flaticon-electrical-storm-day:before { content: "\f129"; }
+.flaticon-empty-daily-calendar-page:before { content: "\f12a"; }
+.flaticon-empty-sand-clock-outlined-tool-symbol:before { content: "\f12b"; }
+.flaticon-equalization-control:before { content: "\f12c"; }
+.flaticon-favorites-star-outlined-symbol:before { content: "\f12d"; }
+.flaticon-file-paper-sheet-outlined-interface-symbol:before { content: "\f12e"; }
+.flaticon-first-aid-set-bag:before { content: "\f12f"; }
+.flaticon-flash:before { content: "\f130"; }
+.flaticon-flower-shape-like-an-atom-with-hexagonal-center:before { content: "\f131"; }
+.flaticon-focus-target-symbol:before { content: "\f132"; }
+.flaticon-fog:before { content: "\f133"; }
+.flaticon-folded-paper-of-a-map:before { content: "\f134"; }
+.flaticon-folder-variant:before { content: "\f135"; }
+.flaticon-game-control:before { content: "\f136"; }
+.flaticon-global-planet-grid-symbol:before { content: "\f137"; }
+.flaticon-hazelnut-seed:before { content: "\f138"; }
+.flaticon-headphones:before { content: "\f139"; }
+.flaticon-heart-outline:before { content: "\f13a"; }
+.flaticon-helm-wheel:before { content: "\f13b"; }
+.flaticon-home:before { content: "\f13c"; }
+.flaticon-information-circular-button-symbol:before { content: "\f13d"; }
+.flaticon-internet-download-interface-symbol:before { content: "\f13e"; }
+.flaticon-leaf-natural-shape:before { content: "\f13f"; }
+.flaticon-link-programing-symbol-of-interface:before { content: "\f140"; }
+.flaticon-liquid-drop-outlined-shape:before { content: "\f141"; }
+.flaticon-lock-padlock-outline-symbol-of-security-tool:before { content: "\f142"; }
+.flaticon-magnetic-tool:before { content: "\f143"; }
+.flaticon-magnifier:before { content: "\f144"; }
+.flaticon-magnifier-1:before { content: "\f145"; }
+.flaticon-maps-placeholder-outlined-tool:before { content: "\f146"; }
+.flaticon-medal-on-a-necklace:before { content: "\f147"; }
+.flaticon-megaphone-side-view-outlined-tool:before { content: "\f148"; }
+.flaticon-minus-circular-button:before { content: "\f149"; }
+.flaticon-moon-phase-outline:before { content: "\f14a"; }
+.flaticon-musical-note:before { content: "\f14b"; }
+.flaticon-new-email-interface-symbol-of-closed-envelope-back:before { content: "\f14c"; }
+.flaticon-note-interface-symbol:before { content: "\f14d"; }
+.flaticon-note-interface-symbol-1:before { content: "\f14e"; }
+.flaticon-parabolic-antenna:before { content: "\f14f"; }
+.flaticon-peace-rotated-symbol:before { content: "\f150"; }
+.flaticon-pen-point-interface-writing-tool-symbol:before { content: "\f151"; }
+.flaticon-photo-camera-outlined-interface-symbol:before { content: "\f152"; }
+.flaticon-piano-keys-outlined-instrument:before { content: "\f153"; }
+.flaticon-picture-of-artistic-landscape:before { content: "\f154"; }
+.flaticon-pill-outline:before { content: "\f155"; }
+.flaticon-pin:before { content: "\f156"; }
+.flaticon-pine-christmas-tree-outlined-shape:before { content: "\f157"; }
+.flaticon-portfolio-of-business:before { content: "\f158"; }
+.flaticon-power-button-symbol:before { content: "\f159"; }
+.flaticon-precious-stone:before { content: "\f15a"; }
+.flaticon-print-outlined-interface-symbol:before { content: "\f15b"; }
+.flaticon-prohibition-signal:before { content: "\f15c"; }
+.flaticon-rain-weather-symbol:before { content: "\f15d"; }
+.flaticon-rainy-day-weather-symbol:before { content: "\f15e"; }
+.flaticon-rainy-day-weather-symbol-1:before { content: "\f15f"; }
+.flaticon-right-arrow-circular-button:before { content: "\f160"; }
+.flaticon-right-arrow-outline:before { content: "\f161"; }
+.flaticon-right-arrow-signal-outline:before { content: "\f162"; }
+.flaticon-rocket-travelling-space-transport:before { content: "\f163"; }
+.flaticon-saturn:before { content: "\f164"; }
+.flaticon-shield-outline:before { content: "\f165"; }
+.flaticon-shopping-basket:before { content: "\f166"; }
+.flaticon-skull:before { content: "\f167"; }
+.flaticon-spam-control-interface-symbol-of-outlined-filter:before { content: "\f168"; }
+.flaticon-speaker-audio-interface-symbol:before { content: "\f169"; }
+.flaticon-speech-bubble-rectangular-chat-symbol:before { content: "\f16a"; }
+.flaticon-sports-or-education-trophy-cup:before { content: "\f16b"; }
+.flaticon-sun-sunny-day-weather-symbol:before { content: "\f16c"; }
+.flaticon-sunrise-weather-symbol:before { content: "\f16d"; }
+.flaticon-sunset:before { content: "\f16e"; }
+.flaticon-switches-pair:before { content: "\f16f"; }
+.flaticon-tag-outline:before { content: "\f170"; }
+.flaticon-telephone-auricular-outlined-tool-symbol:before { content: "\f171"; }
+.flaticon-temperature-controlling-tool-symbol:before { content: "\f172"; }
+.flaticon-thermometer:before { content: "\f173"; }
+.flaticon-thermometer-symbol:before { content: "\f174"; }
+.flaticon-three-ascending-graphic-of-gross-bars-outline-interface-symbol:before { content: "\f175"; }
+.flaticon-tool-interface-symbol:before { content: "\f176"; }
+.flaticon-tray-outlined-symbol:before { content: "\f177"; }
+.flaticon-two-squares-outlined-symbol-of-interface:before { content: "\f178"; }
+.flaticon-umbrella:before { content: "\f179"; }
+.flaticon-university-graduate-hat:before { content: "\f17a"; }
+.flaticon-upload-symbol:before { content: "\f17b"; }
+.flaticon-upload-to-internet:before { content: "\f17c"; }
+.flaticon-upload-up-arrow-symbol-in-circular-outlined-button:before { content: "\f17d"; }
+.flaticon-upper-right-arrow:before { content: "\f17e"; }
+.flaticon-user-outline-shape:before { content: "\f17f"; }
+.flaticon-video-camera:before { content: "\f180"; }
+.flaticon-visible-eye-visibility-interface-symbol:before { content: "\f181"; }
+.flaticon-voice-microphone-intreface-symbol:before { content: "\f182"; }
+.flaticon-wheel-or-ball:before { content: "\f183"; }
+.flaticon-wheel-or-window-of-circular-shape:before { content: "\f184"; }
+.flaticon-white-flag:before { content: "\f185"; }
+.flaticon-wifi-connection-signal-symbol:before { content: "\f186"; }
+.flaticon-wind-direction-tool:before { content: "\f187"; }
+.flaticon-winds-symbol:before { content: "\f188"; }
+.flaticon-winter-cloud-with-rain-and-hail:before { content: "\f189"; }
+.flaticon-wrench-outlined-tool:before { content: "\f18a"; }
+.flaticon-zig-zag-line-graphic-symbol:before { content: "\f18b"; }
+
+
+/* Simpleicon Social Media */
+
+@font-face {
+  font-family: "Simpleicon";
+  src: url("./fonts/Simpleicon.eot");
+  src: url("./fonts/Simpleicon.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/Simpleicon.woff") format("woff"),
+       url("./fonts/Simpleicon.ttf") format("truetype"),
+       url("./fonts/Simpleicon.svg#Simpleicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Simpleicon";
+    src: url("./fonts/Simpleicon.svg#Simpleicon") format("svg");
+  }
+}
+
+[class^="simpleicon-"]:before, [class*=" simpleicon-"]:before,
+[class^="simpleicon-"]:after, [class*=" simpleicon-"]:after {   
+  font-family: Simpleicon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.simpleicon-app-store-apple-symbol:before { content: "\f100"; }
+.simpleicon-apple-logotype:before { content: "\f101"; }
+.simpleicon-arto-logo:before { content: "\f102"; }
+.simpleicon-aws-logo:before { content: "\f103"; }
+.simpleicon-baidu-paw-logo:before { content: "\f104"; }
+.simpleicon-basecamp-logo:before { content: "\f105"; }
+.simpleicon-bebo-social-network-logo:before { content: "\f106"; }
+.simpleicon-behance-logo:before { content: "\f107"; }
+.simpleicon-bing-logo:before { content: "\f108"; }
+.simpleicon-black-cloud:before { content: "\f109"; }
+.simpleicon-blip:before { content: "\f10a"; }
+.simpleicon-blogger-letter-logotype:before { content: "\f10b"; }
+.simpleicon-bnter-logo:before { content: "\f10c"; }
+.simpleicon-brightkite-logo:before { content: "\f10d"; }
+.simpleicon-cinch-logo-of-letter-c-with-an-oval-speech-bubble:before { content: "\f10e"; }
+.simpleicon-coroflot-logo:before { content: "\f10f"; }
+.simpleicon-creative-commons-license-symbol:before { content: "\f110"; }
+.simpleicon-dailybooth-logo:before { content: "\f111"; }
+.simpleicon-delicious-logo:before { content: "\f112"; }
+.simpleicon-designbump-logo:before { content: "\f113"; }
+.simpleicon-designfloat-logo:before { content: "\f114"; }
+.simpleicon-designmoo-logo:before { content: "\f115"; }
+.simpleicon-deviantart:before { content: "\f116"; }
+.simpleicon-digg-logo:before { content: "\f117"; }
+.simpleicon-digg-logo-1:before { content: "\f118"; }
+.simpleicon-diigo-logo:before { content: "\f119"; }
+.simpleicon-dribbble-logo:before { content: "\f11a"; }
+.simpleicon-dropbox-logo:before { content: "\f11b"; }
+.simpleicon-drupal-logo:before { content: "\f11c"; }
+.simpleicon-ebay-logo:before { content: "\f11d"; }
+.simpleicon-ember-logo:before { content: "\f11e"; }
+.simpleicon-etsy-letter-logo:before { content: "\f11f"; }
+.simpleicon-evernote-logo:before { content: "\f120"; }
+.simpleicon-facebook-letter-logo:before { content: "\f121"; }
+.simpleicon-facebook-logo:before { content: "\f122"; }
+.simpleicon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f123"; }
+.simpleicon-factome-logo:before { content: "\f124"; }
+.simpleicon-feedburner-logo:before { content: "\f125"; }
+.simpleicon-flickr-logo-of-two-dots:before { content: "\f126"; }
+.simpleicon-folkd-logo:before { content: "\f127"; }
+.simpleicon-formspring-spiral-logo:before { content: "\f128"; }
+.simpleicon-forrst-logo:before { content: "\f129"; }
+.simpleicon-foursquare-logo:before { content: "\f12a"; }
+.simpleicon-friendfeed-logo:before { content: "\f12b"; }
+.simpleicon-gdgt-logo:before { content: "\f12c"; }
+.simpleicon-github-logo:before { content: "\f12d"; }
+.simpleicon-github-logo-1:before { content: "\f12e"; }
+.simpleicon-goodreads-letter-logo:before { content: "\f12f"; }
+.simpleicon-google-buzz-logo:before { content: "\f130"; }
+.simpleicon-google-logo:before { content: "\f131"; }
+.simpleicon-google-talk-logo-of-a-speech-bubble:before { content: "\f132"; }
+.simpleicon-gowalla-logo:before { content: "\f133"; }
+.simpleicon-gowalla-social-network-logo:before { content: "\f134"; }
+.simpleicon-hacker-news-logo:before { content: "\f135"; }
+.simpleicon-heart-black-shape-for-love:before { content: "\f136"; }
+.simpleicon-hi5-logo:before { content: "\f137"; }
+.simpleicon-hype-machine-logo:before { content: "\f138"; }
+.simpleicon-hyves-social-network-logo:before { content: "\f139"; }
+.simpleicon-icq-flower-logo:before { content: "\f13a"; }
+.simpleicon-instapaper-logo:before { content: "\f13b"; }
+.simpleicon-itunes-logo-of-amusical-note-inside-a-circle:before { content: "\f13c"; }
+.simpleicon-kik-messenger-logo:before { content: "\f13d"; }
+.simpleicon-krop-letters:before { content: "\f13e"; }
+.simpleicon-lastfm-logo:before { content: "\f13f"; }
+.simpleicon-letter-p-symbol:before { content: "\f140"; }
+.simpleicon-linkedin-logo:before { content: "\f141"; }
+.simpleicon-linkedin-logo-1:before { content: "\f142"; }
+.simpleicon-male:before { content: "\f143"; }
+.simpleicon-meetup-logo:before { content: "\f144"; }
+.simpleicon-metacafe-logo:before { content: "\f145"; }
+.simpleicon-ming-circular-dots-lines-logo:before { content: "\f146"; }
+.simpleicon-mister-wong-logo:before { content: "\f147"; }
+.simpleicon-mixx-dj-software-logo:before { content: "\f148"; }
+.simpleicon-mixx-logo:before { content: "\f149"; }
+.simpleicon-mobileme-logo-of-black-cloud:before { content: "\f14a"; }
+.simpleicon-msn-messenger-logo:before { content: "\f14b"; }
+.simpleicon-myspace-logo:before { content: "\f14c"; }
+.simpleicon-myspace-social-network-symbol-of-an-horizontal-line:before { content: "\f14d"; }
+.simpleicon-newsvine-logo:before { content: "\f14e"; }
+.simpleicon-officialfm-logo:before { content: "\f14f"; }
+.simpleicon-openid-logo:before { content: "\f150"; }
+.simpleicon-orkut-letter-logo:before { content: "\f151"; }
+.simpleicon-pandora-letter-logo:before { content: "\f152"; }
+.simpleicon-path-logo:before { content: "\f153"; }
+.simpleicon-paypal-logo:before { content: "\f154"; }
+.simpleicon-pencil-of-gross-size-outline:before { content: "\f155"; }
+.simpleicon-photobucket-logo:before { content: "\f156"; }
+.simpleicon-picasa-logo:before { content: "\f157"; }
+.simpleicon-picasa-logo-1:before { content: "\f158"; }
+.simpleicon-pin-black-silhouette-in-diagonal-position-pointing-down-right:before { content: "\f159"; }
+.simpleicon-ping-logo:before { content: "\f15a"; }
+.simpleicon-pingchat-logo:before { content: "\f15b"; }
+.simpleicon-playstation-logo:before { content: "\f15c"; }
+.simpleicon-plixi-logo:before { content: "\f15d"; }
+.simpleicon-plurk-logo:before { content: "\f15e"; }
+.simpleicon-podcast:before { content: "\f15f"; }
+.simpleicon-q-letter-sign:before { content: "\f160"; }
+.simpleicon-qik-logo:before { content: "\f161"; }
+.simpleicon-quora-logo:before { content: "\f162"; }
+.simpleicon-rdio-logo:before { content: "\f163"; }
+.simpleicon-readernaut-logo:before { content: "\f164"; }
+.simpleicon-reddit-alien-head-logo:before { content: "\f165"; }
+.simpleicon-retweet-arrows-couple-symbol:before { content: "\f166"; }
+.simpleicon-roboto-logo:before { content: "\f167"; }
+.simpleicon-rss-symbol:before { content: "\f168"; }
+.simpleicon-scribd-logo:before { content: "\f169"; }
+.simpleicon-sharethis-logo:before { content: "\f16a"; }
+.simpleicon-shark-fin:before { content: "\f16b"; }
+.simpleicon-simplenote-application-logo:before { content: "\f16c"; }
+.simpleicon-skype-logo:before { content: "\f16d"; }
+.simpleicon-slashdot-news-logo:before { content: "\f16e"; }
+.simpleicon-slideshare-logotype:before { content: "\f16f"; }
+.simpleicon-smile:before { content: "\f170"; }
+.simpleicon-smugmug-logo:before { content: "\f171"; }
+.simpleicon-soundcloud-logo:before { content: "\f172"; }
+.simpleicon-speech-bubble-of-gross-outline-and-circular-shape:before { content: "\f173"; }
+.simpleicon-spotify-logo:before { content: "\f174"; }
+.simpleicon-squarespace-logo:before { content: "\f175"; }
+.simpleicon-squidoo-logo:before { content: "\f176"; }
+.simpleicon-steam-logo:before { content: "\f177"; }
+.simpleicon-stumbleupon-logo:before { content: "\f178"; }
+.simpleicon-technorati-logo:before { content: "\f179"; }
+.simpleicon-threewordsme-logo:before { content: "\f17a"; }
+.simpleicon-tribenet-logo:before { content: "\f17b"; }
+.simpleicon-tripit-logo:before { content: "\f17c"; }
+.simpleicon-tumblr-letter-logo:before { content: "\f17d"; }
+.simpleicon-twitter-letter-logo:before { content: "\f17e"; }
+.simpleicon-twitter-logo:before { content: "\f17f"; }
+.simpleicon-viddler-logo:before { content: "\f180"; }
+.simpleicon-vimeo-logo:before { content: "\f181"; }
+.simpleicon-virb-logo:before { content: "\f182"; }
+.simpleicon-w3-logo:before { content: "\f183"; }
+.simpleicon-whatsapp-logo:before { content: "\f184"; }
+.simpleicon-wikipedia-logo:before { content: "\f185"; }
+.simpleicon-windows-logo:before { content: "\f186"; }
+.simpleicon-wists-logo:before { content: "\f187"; }
+.simpleicon-wordpress-logo:before { content: "\f188"; }
+.simpleicon-wordpress-logo-of-a-letter-in-a-circle:before { content: "\f189"; }
+.simpleicon-xing-logo:before { content: "\f18a"; }
+.simpleicon-yahoo-buzz-logo:before { content: "\f18b"; }
+.simpleicon-yahoo-logo:before { content: "\f18c"; }
+.simpleicon-yahoo-messenger-smiley-logo:before { content: "\f18d"; }
+.simpleicon-yelp-logo:before { content: "\f18e"; }
+.simpleicon-youtube-logo:before { content: "\f18f"; }
+.simpleicon-youtube-play-button:before { content: "\f190"; }
+.simpleicon-zerply-letter-symbol:before { content: "\f191"; }
+.simpleicon-zootool-logo:before { content: "\f192"; }
+.simpleicon-zynga-logotype:before { content: "\f193"; }

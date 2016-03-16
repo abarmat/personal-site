@@ -1,0 +1,8 @@
+[project]
+name = abarmat
+
+[servers.ghpages]
+name = Production
+enabled = yes
+default = yes
+target = ghpages+https://abarmat/abarmat.github.io?cname=arielbarmat.com
