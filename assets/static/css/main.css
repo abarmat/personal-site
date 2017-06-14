@@ -10,10 +10,10 @@ header {
 
 header h1 {
     color: #444;
-    font-size: 54px;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
-    margin: 12px 0;
+    margin: 16px 0;
 }
 
 header .lead {
