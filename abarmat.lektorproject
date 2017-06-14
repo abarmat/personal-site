@@ -5,4 +5,4 @@ name = abarmat
 name = Production
 enabled = yes
 default = yes
-target = ghpages+https://abarmat/abarmat.github.io?cname=arielbarmat.com
+target = ghpages+ssh://abarmat/abarmat.github.io?cname=abarmat.com
