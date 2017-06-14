@@ -1,10 +1,11 @@
 body {
-    
+   font-family: monospace; 
 }
 
 header {
-    width: 100%;
+    margin-top: 48px;
     padding: 0;
+    width: 100%;
 }
 
 header h1 {
@@ -18,6 +19,7 @@ header h1 {
 header .lead {
     margin: 24px 0;
     color: #888;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     line-height: 1.5em;
@@ -239,11 +241,14 @@ footer .credit a {
     padding-top: 100%; /* forces 1:1 aspect ratio */
 }
 
+.blog-posts h2 {
+    margin-bottom: 32px;
+}
+
 .blog-post a {
     color: #444;
     font-weight: 300;
 }
-
 .blog-post span {
     font-size: 14px;
     font-weight: 200;

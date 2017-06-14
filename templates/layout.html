@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ '/static/css/main.css'|asseturl }}">
   <link rel="stylesheet" href="{{ '/static/css/flaticon.css'|asseturl }}">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="shortcut icon" type="image/png" href="{{ '/static/favicon.png'|asseturl }}"/>
 
   <title>{% block title %}{% endblock %}</title>
   <script type="text/javascript">
@@ -18,29 +17,14 @@
   </script>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li{% if this._path == '/' %} class="active"{% endif
-            %}><a href="#intro">Me</a></li>
-          {% for href, title in [
-            ['#blogposts', 'Blog'],
-            ['#oony', 'Companies']
-          ] %}
-            <li{% if this.is_child_of(href) %} class="active"{% endif
-              %}><a href="{{ href|url }}">{{ title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
-
-    <header id="intro">
+  <header id="intro">
+    <div class="container">
       <div class="avatar-frame">
         <img class="avatar" src="{{ '/static/avatar.jpg'|asseturl }}">
       </div>
       <h1 class="name">Ariel Barmat</h1>
       <p class="lead">
-        Tech Entrepreneur from Buenos Aires. Co-Founder of <a href="#oony">Oony</a>. <br>I want to make technology invisible.
+        Tech Entrepreneur from Buenos Aires. CTO at <a href="https://popchest.com">PopChest</a>. <br>I want to make technology invisible.
       </p>
       <div class="social">
         <a href="https://www.facebook.com/abarmat" class="fb" target="blank_">
@@ -65,10 +49,9 @@
           I studied Systems Engineering at <a href="http://www.utn.edu.ar/">Universidad Tecnologica Nacional</a>. 
         </p>
         <p class="lead">
-
-          My main interests are Mobile Software, Product Management and Machine Learning. 
+          My main interests are Software, Product Management and Machine Learning. 
         </br>
-          I 💛 science, swimming, cooking and traveling.
+          I love science, swimming, cooking and traveling.
         </p>
       </div>
       
@@ -77,43 +60,51 @@
           <i class="flaticon-down-arrow-in-circular-button icon-down"></i>
         </a>
       </div>
+    </div>
   </header>
   
   <hr/>
-  <div id="blogposts">
+  <div id="blogposts" class="blog-posts">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-left">
+        <div class="col-md-12 text-left">
           <h2>Latest Posts</h2>
+
           <ul>
             <li class="blog-post">
-              <h3>
+              <h4>
+                <a href="https://medium.com/@abarmat/word-similarity-using-product-discount-data-2ec0b2ac993c">Word similarity using product discount data</a>
+              </h4>
+              <span>Jan 16, 2017</span>
+            </li>
+            <li class="blog-post">
+              <h4>
                 <a href="https://medium.com/@abarmat/starting-from-scratch-2007-vs-2016-ea7329ff3e6c">Starting from scratch: 2007 vs 2016.</a>
-              </h3>
+              </h4>
               <span>Apr 18, 2016</span>
             </li>
             <li class="blog-post">
-              <h3>
+              <h4>
                 <a href="https://medium.com/@abarmat/let-s-open-data-and-feed-a-smarter-ai-de0e0d1663a4">Let's Open Data and feed a smarter AI.</a>
-              </h3>
+              </h4>
               <span>Dec 28, 2015</span>
             </li>
             <li class="blog-post">
-              <h3>
+              <h4>
                 <a href="https://medium.com/@abarmat/into-the-curves-of-happiness-94fcaabd098">Into the curves of happiness.</a>
-              </h3>
+              </h4>
               <span>Oct 29, 2015</span>
             </li>
             <li class="blog-post">
-              <h3>
+              <h4>
                 <a href="https://medium.com/@abarmat/execute-or-think-bdf581fed251">Execute or think?</a>
-              </h3>
+              </h4>
               <span>Aug 2, 2015</span>
             </li>
             <li class="blog-post">
-              <h3>
+              <h4>
                 <a href="https://medium.com/technology-invention-and-more/to-trust-or-not-to-trust-the-ai-7fedcdae5b6c">To trust or not to trust the AI.</a>
-              </h3>
+              </h4>
               <span>Jun 20, 2015</span>
             </li>
           </ul>
@@ -158,8 +149,6 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-left">
-            <h4>Press</h4>
-            
             <div class="row">
               <div class="col-md-2">
                 <div class="press-box">
@@ -239,7 +228,6 @@
               It's main competitor in the US is "Foursquare". We pivoted this project into <u>Oony</u> with the same goal of helping people discover great product and services from local business but with a different approach.
             </p>
             
-            <h4>Press</h4>
             <div class="row">
               <div class="col-md-3">              
                 <div class="press-box">
