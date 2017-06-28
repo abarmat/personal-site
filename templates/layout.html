@@ -11,9 +11,10 @@
 
   <title>{% block title %}{% endblock %}</title>
   <script type="text/javascript">
-      var host = "abarmat.com";
-      if ((host == window.location.host) && (window.location.protocol != "https:"))
-          window.location.protocol = "https";
+      var host = 'abarmat.com';
+      if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+          window.location.protocol = 'https'
+      }
   </script>
 </head>
 <body>
@@ -63,7 +64,6 @@
     </div>
   </header>
   
-  <hr/>
   <div id="blogposts" class="blog-posts">
     <div class="container">
       <div class="row">
