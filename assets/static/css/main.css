@@ -257,3 +257,9 @@ footer .credit a {
 #payment {
     margin-top: 12px;
 }
+
+@media(max-width: 767px) {
+    .press-box {
+        display: none;
+    }
+}
