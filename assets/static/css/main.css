@@ -28,6 +28,7 @@ header .lead {
 header .lead a, 
 header .lead a:hover {
     color: #ddd;
+    text-decoration: underline;
 }
 
 section {
@@ -82,6 +83,14 @@ footer .credit a {
     text-decoration: underline;
 }
 
+p a {
+    color: #444;
+    text-decoration: underline;
+}
+p a:hover {
+    color: #444;
+}
+
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
     font-size: 32px !important;
 }
@@ -120,25 +129,6 @@ footer .credit a {
 	-webkit-border-radius: 130px; /* Saf3+, Chrome */
 	border-radius: 130px; /* Opera 10.5, IE 9 */
 	/*-moz-border-radius: 30px;  Disabled for FF1+ */
-}
-
-.press-box {
-    background-color: #ddd;
-    border: 2px solid #ddd;
-    text-align: center;
-}
-.press-box a {
-    display: block;
-}
-.press-box img {
-    width: 100%;
-    padding: 8px;
-    background-color: #fff;
-}
-.press-box p {
-    background-color: #ddd;
-    font-size: 14px;
-    padding: 2px 8px;
 }
 
 .social {
@@ -225,10 +215,6 @@ footer .credit a {
     width: 100%;
 }
 
-.dummy {
-    padding-top: 100%; /* forces 1:1 aspect ratio */
-}
-
 .blog-posts {
     margin: 32px 0;
 }
@@ -252,6 +238,10 @@ footer .credit a {
     font-size: 20px;
     font-weight: 200;
     color: #888;    
+}
+
+.links a {
+    color: #444;
 }
 
 #payment {

@@ -11,11 +11,25 @@
 
   <title>{% block title %}{% endblock %}</title>
   <script type="text/javascript">
-      var host = 'abarmat.com';
-      if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
-          window.location.protocol = 'https'
-      }
+    var host = 'abarmat.com';
+    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+        window.location.protocol = 'https'
+    }
   </script>
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Bitter:400,700,400italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
 </head>
 <body>
   <header id="intro">
@@ -25,7 +39,7 @@
       </div>
       <h1 class="name">Ariel Barmat</h1>
       <p class="lead">
-        Tech Entrepreneur from Buenos Aires. CTO at <a href="https://popchest.com">PopChest</a>. <br>I want to make technology invisible.
+        Tech Entrepreneur from Buenos Aires. CTO at <a target="_blank" rel="noopener noreferrer" href="https://popchest.com">PopChest</a>. <br>I want to make technology invisible.
       </p>
       <div class="social">
         <a href="https://www.facebook.com/abarmat" class="fb" target="blank_">
@@ -47,11 +61,14 @@
       
       <div class="interests">
         <p class="lead">
-          I studied Systems Engineering at <a href="http://www.utn.edu.ar/">Universidad Tecnologica Nacional</a>. 
+          I've been building consumer facing products during the last 15+ years. 
+          <br />
+          Co-founded <a href="#weegoh">Weegoh</a> and <a href="#oony">Oony</a>.
         </p>
         <p class="lead">
-          My main interests are Software, Product Management and Machine Learning. 
-        </br>
+          I write <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@abarmat/web-money-322eeec2f588">Smart Contracts</a> and train <a target="_blank" rel="noopener noreferrer" href="https://rendernet.abarmat.com">Neural Networks</a>.
+        </p>
+        <p class="lead">
           I love science, swimming, cooking and traveling.
         </p>
       </div>
@@ -73,7 +90,13 @@
           <ul>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/word-similarity-using-product-discount-data-2ec0b2ac993c">Word similarity using product discount data</a>
+                <a href="https://medium.com/@abarmat/web-money-322eeec2f588">Web + Money</a>
+              </h4>
+              <span>Sep 17, 2017</span>
+            </li>
+            <li class="blog-post">
+              <h4>
+                <a href="https://medium.com/@abarmat/word-similarity-using-product-discount-data-2ec0b2ac993c">Word similarity using product discount data.</a>
               </h4>
               <span>Jan 16, 2017</span>
             </li>
@@ -119,7 +142,7 @@
     <section id="oony">
       <div class="container">
         <h2>
-          <a href="http://oony.co.uk">Oony</a>
+          <a href="http://oony.com">Oony</a>
         </h2>
         <h3>We help you shop smarter.</h3>
         <p class="lead">2010-2016</p>
@@ -147,62 +170,31 @@
             </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <div class="row">
-              <div class="col-md-2">
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://techcrunch.com/2012/09/14/startup-alley-at-disrupt-sf-argentina-shows-off-its-startup-scene">
-                      <div class="img-container">
-                        <img src="{{ '/static/techcrunch-disrupt-logo.jpg'|asseturl }}">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-2">
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://pulsosocial.com/2011/02/03/oony-el-agrupador-de-descuentos-pensado-para-moviles">
-                      <div class="img-container">
-                        <img src="{{ '/static/pulsosocial-logo.jpg'|asseturl }}">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-2">
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://www.lanacion.com.ar/1330163-nace-oony-el-buscador-de-ofertas">
-                      <div class="img-container">
-                        <img src="{{ '/static/lanacion-logo.jpg'|asseturl }}">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-md-2">
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="https://drive.google.com/folderview?id=0B9LYPXnmfxScNVFGNXJ2cG1kZWM&usp=sharing">
-                      <div class="img-container">
-                        <img src="{{ '/static/oony-logo.png'|asseturl }}">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
 
-            </div>
+        <div class="row links">
+          <div class="col-md-12 text-left">
+            <ul class="links">
+              <li>
+                <a target="_blank" rel="noopener noreferrer" href="http://techcrunch.com/2012/09/14/startup-alley-at-disrupt-sf-argentina-shows-off-its-startup-scene">
+                  Techcrunch
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="noopener noreferrer" href="http://pulsosocial.com/2011/02/03/oony-el-agrupador-de-descuentos-pensado-para-moviles">
+                  Pulsosocial
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="noopener noreferrer" href="http://www.lanacion.com.ar/1330163-nace-oony-el-buscador-de-ofertas">
+                  La Nacion
+                </a>
+              </li>
+              <li>
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/folderview?id=0B9LYPXnmfxScNVFGNXJ2cG1kZWM&usp=sharing">
+                  Press
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -214,52 +206,36 @@
         <h2>Weegoh</h2>
         <h3>Your Social Nearby.</h3>
         <p class="lead">2008-2010</p>
+
         <div class="row">
           <div class="col-md-8 text-left">          
             <h4>Overview</h4>
             <p>
-              <u>Weegoh</u> was the first location-based social network for mobile devices in Latin America. 
-              We proposed a fresh new way of using your mobile around venues and events to discover the best places to go and meet new people.
+              Weegoh was the first location-based social network for mobile devices in Latin America. 
+              We proposed a new way of using your mobile around venues and events to discover the best places to go and meet new people.
 
-              It's main competitor in the US is "Foursquare". We pivoted this project into <u>Oony</u> with the same goal of helping people discover great product and services from local business but with a different approach.
+              It's main competitor in the US is "Foursquare". We pivoted this project into <a href="#oony">Oony</a> with the same goal of helping people discover great product and services from local business but with a different approach.
             </p>
-            
+
             <div class="row">
-              <div class="col-md-3">              
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://www.infobae.com/2009/09/30/475214-weegoh-complemento-twitter-y-facebook">
-                      <div class="img-container">
-                        <img src="{{ '/static/infobae-logo.png'|asseturl }}">
-                      </div>
+              <div class="col-md-12 text-left">
+                <ul class="links">
+                  <li>
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.infobae.com/2009/09/30/475214-weegoh-complemento-twitter-y-facebook">
+                      Infobae
                     </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://hipertextual.com/archivo/2010/03/weegoh/">
-                      <div class="img-container">
-                        <img src="{{ '/static/hipertextual-logo.jpg'|asseturl }}">
-                      </div>
+                  </li>
+                  <li>
+                    <a target="_blank" rel="noopener noreferrer" href="http://hipertextual.com/archivo/2010/03/weegoh/">
+                      Hipertextual
                     </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">              
-                <div class="press-box">
-                  <div class="responsive-container">
-                    <div class="dummy"></div>
-                    <a href="http://pulsosocial.com/2009/07/23/beepoint-presenta-weegoh-el-integrador-movil-20-mas-completo-del-mercado/">
-                      <div class="img-container">
-                        <img src="{{ '/static/pulsosocial-logo.jpg'|asseturl }}">
-                      </div>
+                  </li>
+                  <li>
+                    <a target="_blank" rel="noopener noreferrer" href="http://pulsosocial.com/2009/07/23/beepoint-presenta-weegoh-el-integrador-movil-20-mas-completo-del-mercado/">
+                      Pulsosocial
                     </a>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -286,7 +262,7 @@
           </div>
           <div class="gpg">
             <a href="https://pgp.mit.edu/pks/lookup?op=vindex&search=0x185E18D7912C2329">
-              <span class="badge">GPG Key</span> 0x185e18d7912c2329
+              <span class="badge">GPG Key</span> <small>7A5E 39AF 8053 DD3F F514  8831 51DF 9451 E697 7209</small>
             </a>
           </div>
         </div>
