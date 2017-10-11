@@ -219,6 +219,7 @@ p a:hover {
     margin: 32px 0;
 }
 .blog-posts h2 {
+    font-weight: bold;
     margin-bottom: 32px;
 }
 .blog-post a {
