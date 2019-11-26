@@ -1,5 +1,5 @@
 body {
-   font-family: monospace; 
+   font-family: "Open Sans", "Nunito"; 
 }
 
 header {
@@ -11,20 +11,23 @@ header {
 
 header h1 {
     color: #ddd;
-    font-size: 42px;
-    font-weight: bold;
+    font-family: "Nunito";
+    font-size: 36px;
+    font-weight: 900;
     text-align: center;
-    margin: 16px 0;
+    text-transform: uppercase;
+    margin: 16px 0 4px;
 }
 
 header .lead {
     color: #ddd;
-    font-size: 22px;
-    font-weight: 400;
+    font-family: "Nunito";
+    font-size: 24px;
     text-align: center;
     line-height: 1.5em;
-    margin: 24px 0;
+    margin-bottom: 6px;
 }
+
 header .lead a, 
 header .lead a:hover {
     color: #ddd;
@@ -37,21 +40,28 @@ section {
 
 section h2 {
     color: #444;
+    font-family: "Nunito";
     font-size: 42px;
-    font-weight: bold;
-}
-section h2 a, 
-section h2 a:hover {
-    color: #444;
+    font-weight: 900;
 }
 
 section h3 {
-    color: #888;
+    color: #AAAAAA;
+    font-family: "Nunito";
+    font-weight: bold;
+    margin-top: 0px;
 }
 
 section h4 {
+    font-family: "Nunito";
     font-size: 24px;
     font-weight: bold;
+}
+
+section .lead {
+    color: #AAAAAA;
+    font-size: 18px;
+    margin-top: -4px;
 }
 
 section p {
@@ -61,55 +71,46 @@ section p {
     margin-bottom: 24px;
 }
 
+section a {
+    color: #444;
+    text-decoration: underline;
+}
+
+section a:hover {
+    color: #444;
+}
+
 section li {
     font-size: 16px;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 footer {
-    background-color: #e7e7e7;
+    background-color: #EEEEEE;
     margin-top: 48px;
-    min-height: 200px;
-    padding: 16px 0;
+    min-height: 80px;
+    padding: 24px 0;
     width: auto;
 }
+
 footer a {
     color: #444;
-}
-footer h4 {
-    font-weight: bold;
-}
-footer .credit a {
     text-decoration: underline;
-}
-
-p a {
-    color: #444;
-    text-decoration: underline;
-}
-p a:hover {
-    color: #444;
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    font-size: 32px !important;
-}
-
-[class^="simpleicon-"]:before, [class*=" simpleicon-"]:before, [class^="simpleicon-"]:after, [class*=" simpleicon-"]:after {
-    font-size: 24px !important;
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 800px;
 }
 
 .goto-section {
     padding: 16px 0;
     text-align: center;
 }
+
 .goto-section a:hover {
     text-decoration: none;
 }
+
 .goto-section .icon-down {
     color: #ddd;
     font-size: 2em;
@@ -121,6 +122,7 @@ p a:hover {
     margin: auto;
     margin-top: 48px;
 }
+
 .avatar-frame img {
     border: 2px solid #ddd;
     margin: auto;
@@ -135,27 +137,30 @@ p a:hover {
     text-align: center;
     margin-bottom: 36px;
 }
+
 .social i {
-    margin: 0 8px;
+    margin: 0;
     display: inline-block;
 }
+
 .social a, .social a:hover {
-    color: #ccc;
+    color: #DDDDDD;
     cursor: pointer;
     text-decoration: none;
 }
-.social a.fb:hover {
-    color: #3b5998;
-}
+
 .social a.tw:hover {
     color: #1da1f2;
 }
+
 .social a.in:hover {
     color: #006fa6;
 }
+
 .social a.github:hover {
-    color: #333;
+    color: #333333;
 }
+
 .social a.medium:hover {
     color: #00ab6b;
 }
@@ -163,30 +168,9 @@ p a:hover {
 .interests {
     margin-top: 50px;
 }
+
 .interests .lead {
     font-size: 16px;
-}
-
-.mail, .skype {
-    margin-bottom: 4px;
-}
-.mail a, .skype a {
-    position: relative;
-    top: -2px;
-}
-.mail .icon:before {
-    font-size: 18px !important;
-    margin: 0 !important;
-    margin-right: 4px !important;
-    padding-top: 2px;
-}
-
-.skype .icon:before {
-    color: #12A5F4;
-    font-size: 18px !important;
-    margin: 0 !important;
-    margin-right: 4px !important;
-    padding: 2px 0;
 }
 
 .img-container {
@@ -199,12 +183,14 @@ p a:hover {
     text-align:center; /* Align center inline elements */
     font: 0/0 a;
 }
+
 .img-container:before {
     content: ' ';
     vertical-align: middle;
     display: inline-block;
     height: 100%;
 }
+
 .img-container img {
     vertical-align: middle;
     display: inline-block;
@@ -218,39 +204,30 @@ p a:hover {
 .blog-posts {
     margin: 32px 0;
 }
+
 .blog-posts h2 {
+    color: #444;
+    font-family: "Nunito";
     font-weight: bold;
     margin-bottom: 32px;
 }
+
+.blog-posts .all {
+    color: #AAAAAA;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 28px;
+}
+
 .blog-post a {
     color: #444;
     font-weight: 300;
 }
+
 .blog-post span {
+    color: #AAAAAA;
     font-size: 14px;
     font-weight: 200;
-    color: #888;
     position: relative;
     top: -8px;
-}
-
-.blog-post-all {
-    margin-left: 28px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #888;    
-}
-
-.links a {
-    color: #444;
-}
-
-#payment {
-    margin-top: 12px;
-}
-
-@media(max-width: 767px) {
-    .press-box {
-        display: none;
-    }
 }
