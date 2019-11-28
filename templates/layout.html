@@ -1,20 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ '/static/css/main.css'|asseturl }}">
-  <link rel="stylesheet" href="{{ '/static/css/flaticon.css'|asseturl }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,900|Open+Sans:400,700&display=swap">
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="{{ '/static/css/main.css'|asseturl }}" />
+  <link rel="stylesheet" href="{{ '/static/css/flaticon.css'|asseturl }}" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito:400,900|Open+Sans:400,700&display=swap"
+  />
 
   <title>{% block title %}{% endblock %}</title>
   <script type="text/javascript">
-    var host = 'abarmat.com';
-    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
-        window.location.protocol = 'https'
+    var host = 'abarmat.com'
+    if (
+      host === window.location.host &&
+      window.location.protocol !== 'https:'
+    ) {
+      window.location.protocol = 'https'
     }
   </script>
 </head>
@@ -23,14 +34,14 @@
   <header id="intro">
     <div class="container">
       <div class="avatar-frame">
-        <img class="avatar" src="{{ '/static/avatar.jpg'|asseturl }}">
+        <img class="avatar" src="{{ '/static/avatar.jpg'|asseturl }}" />
       </div>
       <h1 class="name">Ariel Barmat</h1>
       <p class="lead">
         Tech Entrepreneur from Buenos Aires.
       </p>
       <div class="social">
-        <a href="https://twitter.com/abarmat" class="tw" target="blank_"O>
+        <a href="https://twitter.com/abarmat" class="tw" target="blank_" O>
           <i class="simpleicon-twitter-logo"></i>
         </a>
         <a href="https://ar.linkedin.com/in/abarmat" class="in" target="blank_">
@@ -43,15 +54,15 @@
           <i class="simpleicon-mixx-dj-software-logo"></i>
         </a>
       </div>
-      
+
       <div class="interests">
         <p class="lead">
-          I've been building consumer facing products during the last 15+ years. 
+          I've been building consumer facing products during the last 15+ years.
           <br />
           Co-founded <a href="#weegoh">Weegoh</a> and <a href="#oony">Oony</a>.
         </p>
       </div>
-      
+
       <div class="goto-section">
         <a href="#oony">
           <i class="flaticon-down-arrow-in-circular-button icon-down"></i>
@@ -59,7 +70,7 @@
       </div>
     </div>
   </header>
-  
+
   <div id="blogposts" class="blog-posts">
     <div class="container">
       <div class="row">
@@ -69,76 +80,112 @@
           <ul>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/two-years-into-the-crypto-rabbit-hole-dff04e874ee9">Two years into the crypto rabbit hole</a>
+                <a
+                  href="https://medium.com/@abarmat/two-years-into-the-crypto-rabbit-hole-dff04e874ee9"
+                  >Two years into the crypto rabbit hole</a
+                >
               </h4>
               <span>Sep 7, 2018</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/an-experiment-about-portable-intelligence-e52cd89e9f1b">An experiment about portable "intelligence"</a>
+                <a
+                  href="https://medium.com/@abarmat/an-experiment-about-portable-intelligence-e52cd89e9f1b"
+                  >An experiment about portable "intelligence"</a
+                >
               </h4>
               <span>Nov 7, 2017</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/a-dive-into-decision-making-98cb198e0b45">A dive into decision making</a>
+                <a
+                  href="https://medium.com/@abarmat/a-dive-into-decision-making-98cb198e0b45"
+                  >A dive into decision making</a
+                >
               </h4>
               <span>Oct 10, 2017</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/web-money-322eeec2f588">Web + Money</a>
+                <a href="https://medium.com/@abarmat/web-money-322eeec2f588"
+                  >Web + Money</a
+                >
               </h4>
               <span>Sep 17, 2017</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/word-similarity-using-product-discount-data-2ec0b2ac993c">Word similarity using product discount data</a>
+                <a
+                  href="https://medium.com/@abarmat/word-similarity-using-product-discount-data-2ec0b2ac993c"
+                  >Word similarity using product discount data</a
+                >
               </h4>
               <span>Jan 16, 2017</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/starting-from-scratch-2007-vs-2016-ea7329ff3e6c">Starting from scratch: 2007 vs 2016</a>
+                <a
+                  href="https://medium.com/@abarmat/starting-from-scratch-2007-vs-2016-ea7329ff3e6c"
+                  >Starting from scratch: 2007 vs 2016</a
+                >
               </h4>
               <span>Apr 18, 2016</span>
             </li>
             <li class="blog-post">
               <h4>
-                <a href="https://medium.com/@abarmat/let-s-open-data-and-feed-a-smarter-ai-de0e0d1663a4">Let's Open Data and feed a smarter AI</a>
+                <a
+                  href="https://medium.com/@abarmat/let-s-open-data-and-feed-a-smarter-ai-de0e0d1663a4"
+                  >Let's Open Data and feed a smarter AI</a
+                >
               </h4>
               <span>Dec 28, 2015</span>
             </li>
           </ul>
-          <a href="https://medium.com/@abarmat" class="all">All posts &raquo;</a>
+          <a href="https://medium.com/@abarmat" class="all"
+            >All posts &raquo;</a
+          >
         </div>
       </div>
     </div>
   </div>
 
-  <hr/>
+  <hr />
   <div id="companies">
     <section id="oony">
       <div class="container">
         <h2>Oony</h2>
         <h3>We help you shop smarter</h3>
         <p class="lead">2010-2016</p>
-      
+
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Oony is an online and mobile platform that helps people shop smarter, from the everyday grocery shopping to their dream vacation.
-              Every day we gather thousands of coupon codes and great deals from stores around the world to make really simple for our users to find the best opportunities.
-              The business model is based on publishing products from our partners to drive them more sales. We create high-quality leads by intelligently matching consumers to the products they like.
-              We feature more than 3 million deals in 15 countries.        
+              Oony is an online and mobile platform that helps people shop
+              smarter, from the everyday grocery shopping to their dream
+              vacation. Every day we gather thousands of coupon codes and great
+              deals from stores around the world to make really simple for our
+              users to find the best opportunities. The business model is based
+              on publishing products from our partners to drive them more sales.
+              We create high-quality leads by intelligently matching consumers
+              to the products they like. We feature more than 3 million deals in
+              15 countries.
             </p>
           </div>
           <div class="col-md-12 text-left">
             <h4>Highlights</h4>
             <ul>
               <li>Founded in 2011 &raquo; Profitable in 2012</li>
-              <li>Raised a seed round from <a href="https://www.crunchbase.com/organization/enzyme-venture-capital">Enzyme Venture Capital</a></li>
-              <li>Part of <a href="http://www.nxtplabs.com/">NXTP Labs</a> Accelerator</li>
+              <li>
+                Raised a seed round from
+                <a
+                  href="https://www.crunchbase.com/organization/enzyme-venture-capital"
+                  >Enzyme Venture Capital</a
+                >
+              </li>
+              <li>
+                Part of
+                <a href="http://www.nxtplabs.com/">NXTP Labs</a> Accelerator
+              </li>
               <li>1 million registered users</li>
               <li>15 countries</li>
               <li>+ 3 million active deals &amp; products</li>
@@ -148,8 +195,8 @@
         </div>
       </div>
     </section>
-  
-    <hr/>
+
+    <hr />
     <section id="weegoh">
       <div class="container">
         <h2>Weegoh</h2>
@@ -159,36 +206,69 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              Weegoh was the first location-based social network for mobile devices in Latin America. 
-              We proposed a new way of using your mobile around venues and events to discover the best places to go and meet new people.
-
-              It's main competitor in the US is "Foursquare". We pivoted this project into <a href="#oony">Oony</a> with the same goal of helping people discover great product and services from local business but with a different approach.
+              Weegoh was the first location-based social network for mobile
+              devices in Latin America. We proposed a new way of using your
+              mobile around venues and events to discover the best places to go
+              and meet new people. It's main competitor in the US is
+              "Foursquare". We pivoted this project into
+              <a href="#oony">Oony</a> with the same goal of helping people
+              discover great product and services from local business but with a
+              different approach.
             </p>
           </div>
         </div>
-      </div>    
+      </div>
     </section>
   </div>
-  
+
   <footer>
     <div class="container">
       <div class="row">
         <div id="credit" class="col-md-12 text-left credit">
-          <p>Icon made by <a href="http://www.freepik.com">Freepik</a> and <a href="http://simpleicon.com/">Simpleicon</a> from <a href="http://www.flaticon.com">Flaticon</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+          <p>
+            Icon made by <a href="http://www.freepik.com">Freepik</a> and
+            <a href="http://simpleicon.com/">Simpleicon</a> from
+            <a href="http://www.flaticon.com">Flaticon</a>, licensed by
+            <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+          </p>
           <p>2019 © Ariel Barmat</p>
         </div>
       </div>
     </div>
   </footer>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"
+  ></script>
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ;(function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r
+      ;(i[r] =
+        i[r] ||
+        function() {
+          ;(i[r].q = i[r].q || []).push(arguments)
+        }),
+        (i[r].l = 1 * new Date())
+      ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+      a.async = 1
+      a.src = g
+      m.parentNode.insertBefore(a, m)
+    })(
+      window,
+      document,
+      'script',
+      '//www.google-analytics.com/analytics.js',
+      'ga'
+    )
 
-    ga('create', 'UA-75199006-1', 'auto');
-    ga('send', 'pageview');
+    ga('create', 'UA-75199006-1', 'auto')
+    ga('send', 'pageview')
   </script>
 </body>
